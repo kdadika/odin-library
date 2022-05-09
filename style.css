@@ -1,0 +1,103 @@
+*{
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	background: #1A152B;
+  }
+
+  .toggleOn {
+    display: none;
+}
+
+.books{
+	display:grid;
+	padding-top: 50px;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, 20rem);
+	justify-content: center;
+}
+
+.bookCard{
+	background: #E6C487;
+    display: flex;
+	flex-flow: wrap;
+	border : 5px solid #EFF3F0;
+	border-radius: 10px;
+	text-align: center;
+	width: 100%;
+	box-shadow: 0px 0px 8px -4px #000000;
+}
+
+.bookCard > h2{
+	width:100%;
+	text-align: center;
+	font-size: 2rem;
+	margin:10px;
+	padding-top: 10px;
+}
+.bookCard > h4, .bookCard > h3{
+	width:100%;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.25rem;
+	text-align: center;
+	margin: 5px
+}
+
+.bookCard > p{
+	display: flex;
+	align-items: center;
+	width:100%;
+	justify-content: space-around;
+}
+
+.bookCard  button{
+	width: 75px;
+	border-radius: 10px;
+	background: #1A152B;
+	color: white;
+	padding:5px;
+}
+
+.bookForm{
+	background: #E6C487;
+	padding: 25px;
+	text-align: center;
+}
+
+.newBook{
+	width: 125px;
+	height: 30px;
+	border-radius: 10px;
+	background: #1A152B;
+	color: white;
+	
+}
+
+#addBook{
+	width: 125px;
+	height: 30px;
+	border-radius: 10px;
+	background: #1A152B;
+	color: white;
+}
+
+#status{
+	padding-right: 20px;
+}
+
+.inputBook{
+	padding-top: 25px;
+}
+
+label{
+	font-size: 25px;
+	padding: 0px 15px;
+}
+
+input{
+	border-radius: 10px;
+	box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
